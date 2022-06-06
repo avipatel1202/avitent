@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="container text-center bg-[#0f0f4d] text-white h-fit px-auto">
+    <div className="container text-center bg-[#0f0f4d] text-white h-min px-auto">
       <div className="first-heading flex justify-center">
         <h1 className="font-bold text-7xl mb-[50px]">
           By Collectors, for Collectors
@@ -30,7 +30,7 @@ function About() {
             src="https://assets.website-files.com/61ca490b8b35d020e5f3fee7/61e742efaf71ee2260593029_Marhmello.png"
             alt=""
             srcset=""
-            className="w-80 py-2 pr-4 ml-8 max-w-[100%] px-6 align-middle"
+            className="w-80 h-full ml-12 px-8 "
           />
         </div>
 
@@ -44,7 +44,7 @@ function About() {
       <a
         href="http://fort-gotten.com"
         target="_blank"
-        className="w-[320px] rounded-xl min-w-full inline-block bg-transparent box-border"
+        className="w-[320px] rounded-xl min-w-full inline-block bg-[ rgba(0, 0, 0, 0.35)] box-border"
       >
         <img
           src="https://assets.website-files.com/61ca490b8b35d020e5f3fee7/61e8a0faf7a4409850abefe9_fort-gotten-logo.svg"
@@ -72,8 +72,8 @@ function About() {
         to learn more about the project and the team.
       </p>
 
-      <div className="team flex justify-center">
-        <div className="team-member">
+      <div className="team flex flex-wrap justify-center mb-10">
+        <div className="team-member ">
           <img
             src="https://assets.website-files.com/61ca490b8b35d020e5f3fee7/61e8a48f1222eef1fe4a3262_team-horia.jpg"
             loading="lazy"

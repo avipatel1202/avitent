@@ -9,13 +9,10 @@
         rgba(15,15,77,0) 64.9%,
         rgba(15,15,77,0) 100%
     );
-    background-color: #0f0f4d;
+    /* background-color: #0f0f4d; */
 }
 
 .basic-info {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
     max-width: 1000px;
