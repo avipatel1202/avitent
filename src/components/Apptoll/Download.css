@@ -1,0 +1,74 @@
+.download-app {
+    background-image: url('/public/assets/img/Group\ 9177.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 48px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ds-left {
+    color: #fff;
+}
+
+.up-head {
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+h3.main_h {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.ds-left>div>p {
+    color: #fff;
+    padding: 15px 0px;
+}
+
+.down_section {
+    padding: 0px!important;
+}
+
+.google_play {
+    margin-right: 4px;
+}
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+.down-foo>img {
+    width: 25%;
+}
+
+.download-overlay IMG {
+    position: absolute;
+    width: 62%;
+    right: 20%;
+}

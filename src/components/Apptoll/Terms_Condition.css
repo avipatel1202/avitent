@@ -1,0 +1,381 @@
+.main_div {
+  width: 99vw;
+}
+.ml-0,
+.mx-0 {
+  margin-left: 0 !important;
+}
+
+.pl-0,
+.px-0 {
+  padding-left: 0 !important;
+}
+.pr-0,
+.px-0 {
+  padding-right: 0 !important;
+}
+
+/* @media (min-width: 768px)
+.col-md-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+} */
+
+.apptoll_side_nav {
+  background: linear-gradient(180deg, #eeae10, #f1b41e);
+  min-height: 100vh;
+  height: 100%;
+}
+
+.apptoll-nav {
+  display: block;
+  padding: 0;
+}
+
+/* @media (min-width: 1200px)
+.navbar-expand-xl {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+} */
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.apptoll-nav .navbar-brand {
+  text-align: center;
+  margin: 0;
+  display: block;
+  padding-top: 40px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.apptoll_side_nav .navbar-brand img {
+  width: 50px;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+/* @media (min-width: 1200px)
+.navbar-expand-xl .navbar-toggler {
+    display: none;
+} */
+
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  -webkit-appearance: button;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  border-radius: 0;
+}
+
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+@media (min-width: 1200px) {
+  .navbar-expand-xl .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+.collapse {
+  display: none;
+}
+
+.apptoll-nav .navbar-nav {
+  width: 100%;
+  margin-top: 25px;
+}
+
+@media (min-width: 1200px) {
+
+    .navbar-expand-xl .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.apptoll-nav .nav-item.active,
+.apptoll-nav .nav-item:hover {
+  background: #fff6;
+  border-left: 2px solid #000033;
+}
+ul li {
+  list-style: none;
+}
+
+.apptoll-nav .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  padding: 12px 20px;
+}
+
+@media (min-width: 1200px) {
+
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.apptoll-nav .navbar-nav .nav-link img {
+  height: 14px;
+  margin-right: 7px;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* 2 */
+
+header {
+  padding: 15px 50px 5px;
+  box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 20%);
+  background: #eeeeff;
+}
+
+header > div > div {
+  width: 50%;
+}
+
+.header_links ul {
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.header_links a {
+  color: #000033;
+  font-size: 13px;
+  padding-right: 10px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header_links_right {
+  text-align: right;
+}
+
+.header_links_right ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0px;
+  margin-top: 7px;
+}
+
+.h-link {
+  color: #333;
+  padding-right: 15px;
+}
+
+.header_links_right ul li .h-link img {
+  width: 15px;
+  margin-top: 10px;
+  margin-left: 14px;
+}
+
+.dropdown,
+.dropup {
+  position: relative;
+}
+
+.header_links_right ul li .h-link img {
+  width: 15px;
+  margin-top: 10px;
+  margin-left: 14px;
+}
+
+.notification-drop .dropdown-menu {
+  left: -170px !important;
+  min-width: 325px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 20%);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.notification-content {
+  padding: 10px;
+}
+
+.dash_notifi {
+  float: right;
+  display: inline-flex;
+  position: relative;
+  top: -10px;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.user__icon .media-body span {
+  letter-spacing: 0.5px;
+  color: #000033;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+span.avatar {
+  margin-top: -5px;
+}
+
+span.avatar img {
+  height: 35px;
+  margin-left: 10px;
+}

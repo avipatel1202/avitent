@@ -1,0 +1,120 @@
+#features {
+    background-image: url('/public/assets/img/Group\ 9169.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 1050px;
+    background-repeat: no-repeat;
+}
+
+.content-wrap {
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+h3.main_h {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 70px;
+    height: 3px;
+    background-color: #EEAD0E;
+    margin: 7px 0px 18px 0px;
+}
+
+.underline.line-features {
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+p.subheading.text-center {
+    color: #6d6a6a;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+/* 2 */
+
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 380px;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+/* 3 */
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.rs-icon-info {
+    margin-top: 2.5rem;
+}
+
+.rs-icon-info .info-icon {
+    display: table-cell;
+    position: relative;
+}
+
+.rs-icon-info img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 17px;
+    margin-top: 5px;
+    font-size: 22px;
+    border: 1px solid #000070;
+    color: #ffffff;
+}
+
+.rs-icon-info .info-text {
+    display: table-cell;
+    padding-left: 20px;
+    position: relative;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+p.lead.text-primary {
+    margin-bottom: 6px;
+}
+
+.text-primary {
+    color: #000070 !important;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+/* .rs-icon-info::after {
+    display: block;
+    content: "";
+    clear: both;
+} */

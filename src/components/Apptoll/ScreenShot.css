@@ -1,0 +1,78 @@
+section {
+    display: block;
+}
+div#screenshot {
+    padding: 40px 0px;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+h3.main_h {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 70px;
+    height: 3px;
+    background-color: #EEAD0E;
+    margin: 7px 0px 18px 0px;
+}
+
+.underline.screen-line {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+p.subheading.text-center {
+    color: #6d6a6a;
+    padding: 10px;
+}
+
+
+/* 2 */
+/* .owl-carousel.owl-loaded {
+    display: block;
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+.owl-carousel.owl-loaded {
+    display: block;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    position: relative;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+} */

@@ -1,0 +1,111 @@
+section.about_us {
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* @media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+} */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.about_img img {
+    width: 520px;
+}
+
+.about_org {
+    padding-top: 91px;
+}
+
+h3.main_h {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 70px;
+    height: 3px;
+    background-color: #EEAD0E;
+    margin: 7px 0px 18px 0px;
+}
+
+.about_org p {
+    font-size: 16px;
+    color: #0009;
+    line-height: 23px;
+}
+
+
+/* About Services */
+
+.about_services {
+    margin-left: 50px;
+}
+
+.ml-0, .mx-0 {
+    margin-left: 0!important;
+}
+
+.mr-0, .mx-0 {
+    margin-right: 0!important;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.card_about img {
+    width: 15%;
+    margin-bottom: 13px;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.card_about p {
+    padding-right: 20px;
+    color: #0009;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,44 @@
+.subscribe {
+    margin-top: 200px;
+    background: #F2F2F2;
+    padding: 40px 0px;
+}
+
+p.subheading.text-center {
+    color: #6d6a6a;
+    padding: 10px;
+}
+
+form#subscription {
+    width: 47%;
+    margin: auto;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+form#subscription>div>input {
+    border-radius: 12px;
+    padding-left: 31px;
+    font-size: 13px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.pagesbutton button {
+    background: #EEAD0E;
+    padding: 16px 33px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 13px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    color: #fff;
+}

@@ -1,0 +1,65 @@
+.login_page {
+  min-height: 100vh;
+  align-items: center;
+  display: grid;
+  background: transparent;
+  background-size: cover;
+}
+.login_card {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 35px 48px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+}
+
+.login_flogo {
+  max-width: 100px;
+  margin: auto;
+  display: block;
+  padding: 0px 0px 30px;
+}
+
+.login-form .form-group {
+  position: relative;
+}
+.login-form img {
+  position: absolute;
+  left: 12px;
+  top: 17px;
+  width: 13px;
+  height: 13px;
+  font-size: 14px;
+}
+.login-form .form-control {
+  border: none;
+  background: #eee;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 14px 11px 14px 37px;
+}
+.br-5 {
+  border-radius: 24px;
+  width: 100%;
+  background: #01014a;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 0px 10px 0px;
+}
+.forget-pass,
+.cr-account {
+  font-size: 13px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: right;
+  display: inline-block;
+}
+.forget-pass > a {
+  color: #274321;
+}
+p.no-acc {
+  font-size: 13px;
+  margin-top: 11px;
+  text-align: center;
+}

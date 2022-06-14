@@ -1,0 +1,89 @@
+.tablediv {
+  display: table;
+  max-width: 100%;
+}
+.tablediv .tablerow {
+  display: table-row;
+}
+.tablediv .tablerow > .tablecell {
+  padding: 4px 10px;
+  line-height: 13px;
+  font-size: 11px;
+  color: #757272;
+}
+.atm_card_details > input {
+  float: left;
+  width: 16.66%;
+  outline: 0;
+  text-align: center;
+  margin-left: 13px;
+  border-width: 0 0 2px;
+  padding: 0px 7px;
+  height: 48px;
+}
+
+.otp-form .form-group {
+  position: relative;
+}
+form.otp-form {
+  margin-top: 35px;
+}
+.otp-form img {
+  position: absolute;
+  left: 12px;
+  top: 17px;
+  width: 13px;
+  height: 13px;
+  font-size: 14px;
+}
+.otp-form .form-control {
+  border: none;
+  background: #eee;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 14px 11px 14px 37px;
+  text-align: center;
+}
+.otp_card {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  text-align: center;
+  padding: 35px 48px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+}
+
+.atm_card_details > input::-webkit-input-placeholder {
+  font-size: 25px;
+}
+.otp-btns {
+  text-align: center;
+  width: 100%;
+  background: #000033;
+  border: 1px solid #000033;
+  color: #fff;
+  border-radius: 27px;
+  padding: 12px 46px;
+  margin-top: 28px;
+  cursor: pointer;
+}
+.otp-btns > a {
+  color: #fff;
+  font-weight: 600;
+  border-radius: 27px;
+}
+.otp_card > h4 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.otp_para {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 13px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #eead0e !important;
+}
